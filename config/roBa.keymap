@@ -60,6 +60,7 @@
             <&macro_tap>,
             <&sl 4>;
         label = “MKP_EXIT_AML”;
+        };
 
     };
 
