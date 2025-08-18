@@ -22,6 +22,8 @@
         21 // ;
         34 // Ctrl
     >;
+
+    require-prior-idle-ms = <200>;
 };
 
 / {
