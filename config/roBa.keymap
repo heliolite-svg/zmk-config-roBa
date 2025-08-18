@@ -57,7 +57,7 @@
         };
     };
 
-#define MOUSE 5
+#define MOUSE 4
 
 
     macros {
