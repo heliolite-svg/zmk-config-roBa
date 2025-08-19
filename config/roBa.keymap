@@ -56,7 +56,7 @@
         };
 
         Scroll {
-            bindings = <&to 5>;
+            bindings = <&lt_to_layer_0 5 A>;
             key-positions = <19 20>;
         };
     };
