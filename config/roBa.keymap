@@ -144,7 +144,7 @@
             >;
         };
 
-        ARROW {
+        Move {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp_exit_AML C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp_exit_AML LG(LC(LEFT_ARROW))  &kp_exit_AML UP_ARROW    &kp_exit_AML LG(LC(RIGHT))  &kp_exit_AML C_AC_DESKTOP_SHOW_ALL_APPLICATIONS
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp_exit_AML HOME                           &kp_exit_AML LEFT                &kp_exit_AML DOWN_ARROW  &kp_exit_AML RIGHT          &kp_exit_AML END
