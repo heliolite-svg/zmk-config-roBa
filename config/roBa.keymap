@@ -126,21 +126,21 @@
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        Symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp_exit_AML EXCLAMATION   &kp_exit_AML AT_SIGN  &kp_exit_AML HASH  &kp_exit_AML DOLLAR  &kp_exit_AML PERCENT                      &kp_exit_AML CARET         &kp_exit_AML AMPERSAND      &kp_exit_AML ASTERISK   &kp_exit_AML LEFT_PARENTHESIS  &kp_exit_AML RIGHT_PARENTHESIS
+&trans                     &trans                &trans             &trans               &trans                &trans      &trans  &kp_exit_AML LEFT_BRACKET  &kp_exit_AML RIGHT_BRACKET  &kp_exit_AML BACKSLASH  &kp_exit_AML MINUS             &kp_exit_AML EQUAL
+&mt LEFT_SHIFT LEFT_SHIFT  &trans                &trans             &trans               &trans                &trans      &trans  &kp_exit_AML COLON         &kp_exit_AML DOUBLE_QUOTES  &kp_exit_AML COMMA      &kp_exit_AML PERIOD            &mt RIGHT_SHIFT BACKSLASH
+&trans                     &trans                &trans             &trans               &trans                &trans      &trans  &trans                                                                                                        &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH       &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &mt RIGHT_SHIFT BACKSLASH
-&trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                    &kp PIPE
+&kp_exit_AML F1     &kp_exit_AML F2   &kp_exit_AML F3   &kp_exit_AML F4   &kp_exit_AML F5                                                    &kp_exit_AML NUMBER_1  &kp_exit_AML NUMBER_2  &kp_exit_AML NUMBER_3  &kp_exit_AML NUMBER_0  &trans
+&kp_exit_AML F6     &kp_exit_AML F7   &kp_exit_AML F8   &kp_exit_AML F9   &kp_exit_AML F10  &kp LC(LA(KP_NUMBER_0))      &trans              &kp_exit_AML NUMBER_4  &kp_exit_AML NUMBER_5  &kp_exit_AML NUMBER_6  &kp_exit_AML PLUS      &kp_exit_AML MINUS
+&mt LEFT_SHIFT F11  &kp_exit_AML F12  &kp_exit_AML F13  &kp_exit_AML F14  &kp_exit_AML F15  &trans                       &trans              &kp_exit_AML NUMBER_7  &kp_exit_AML NUMBER_8  &kp_exit_AML NUMBER_9  &kp_exit_AML MINUS     &mt RIGHT_SHIFT SLASH
+&trans              &trans            &trans            &trans            &trans            &trans                       &kp_exit_AML MINUS  &kp_exit_AML PERIOD                                                                         &trans
             >;
         };
 
