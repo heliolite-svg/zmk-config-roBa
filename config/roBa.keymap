@@ -129,7 +129,7 @@
         Symbol {
             bindings = <
 &kp_exit_AML EXCLAMATION   &kp_exit_AML AT_SIGN  &kp_exit_AML HASH  &kp_exit_AML DOLLAR  &kp_exit_AML PERCENT                      &kp_exit_AML CARET         &kp_exit_AML AMPERSAND      &kp_exit_AML ASTERISK   &kp_exit_AML LEFT_PARENTHESIS  &kp_exit_AML RIGHT_PARENTHESIS
-&trans                     &trans                &trans             &trans               &trans                &trans      &trans  &kp_exit_AML LEFT_BRACKET  &kp_exit_AML RIGHT_BRACKET  &kp_exit_AML BACKSLASH  &kp_exit_AML MINUS             &kp_exit_AML EQUAL
+&kp LSHFT                  &trans                &trans             &trans               &trans                &trans      &trans  &kp_exit_AML LEFT_BRACKET  &kp_exit_AML RIGHT_BRACKET  &kp_exit_AML BACKSLASH  &kp_exit_AML MINUS             &mt RSHIFT EQUAL
 &mt LEFT_SHIFT LEFT_SHIFT  &trans                &trans             &trans               &trans                &trans      &trans  &kp_exit_AML COLON         &kp_exit_AML DOUBLE_QUOTES  &kp_exit_AML COMMA      &kp_exit_AML PERIOD            &mt RIGHT_SHIFT BACKSLASH
 &trans                     &trans                &trans             &trans               &trans                &trans      &trans  &trans                                                                                                        &trans
             >;
