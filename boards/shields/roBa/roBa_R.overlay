@@ -22,6 +22,8 @@
         20 // s
         21 // h
         34 // Ctrl
+        6
+        8
     >;
 
     require-prior-idle-ms = <200>;
