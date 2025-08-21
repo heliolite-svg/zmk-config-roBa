@@ -54,6 +54,12 @@
             bindings = <&kp_exit_AML ESCAPE>;
             key-positions = <0 1>;
         };
+
+        next {
+            bindings = <&kp A>;
+            key-positions = <6 8>;
+            layers = <4>;
+        };
     };
 
     macros {
