@@ -93,7 +93,7 @@
             wait-ms = <0>;
             tap-ms = <0>;
             #binding-cells = <1>;
-            bindings = <&exit_AML &macro_param_1to1 &mo MACRO_PLACEHOLDER>;
+            bindings = <&exit_AML &mo>;
             label = "MT_exit_AML";
         };
     };
@@ -131,7 +131,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&exit_AML &mo>, <&kp>;
+            bindings = <&mt_exit_AML>, <&kp>;
 
             display-name = "Layer-Tap";
         };
