@@ -128,13 +128,12 @@
 
         mt_exit_AML_: mt_exit_AML {
             compatible = "zmk,behavior-hold-tap";
-            label = "MT_exit_AML";
-            bindings = <&mt_exit_AML>, <&kp>;
-
             #binding-cells = <2>;
+            flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            flavor = "balanced";
-            quick-tap-ms = <200>;
+            bindings = <&exit_AML &mo>, <&kp>;
+            display-name = "Layer-Tap";
+
         };
     };
 
