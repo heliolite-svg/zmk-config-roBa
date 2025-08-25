@@ -220,7 +220,7 @@
 
         layer_7 {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                                 &trans         &trans        &kp LA(UP_ARROW)  &trans         &trans
+&trans          &trans  &trans  &trans  &trans                                 &trans         &trans        &kp LA(UP_ARROW)  &kp LC(SLASH)  &trans
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans             &trans         &kp LC(LEFT)  &kp LA(DOWN)      &kp LC(RIGHT)  &trans
 &trans          &trans  &trans  &trans  &trans  &trans      &trans             &trans         &trans        &trans            &trans         &trans
 &trans          &trans  &trans  &trans  &trans  &trans      &kp LC(BACKSPACE)  &kp LC(ENTER)                                                 &trans
