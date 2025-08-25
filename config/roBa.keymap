@@ -60,6 +60,16 @@
             key-positions = <6 8>;
             layers = <4>;
         };
+
+        layer6 {
+            bindings = <&mo 6>;
+            key-positions = <40 41>;
+        };
+
+        layerntniao {
+            bindings = <&mo 6>;
+            key-positions = <38 39>;
+        };
     };
 
     macros {
