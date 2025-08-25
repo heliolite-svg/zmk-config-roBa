@@ -153,10 +153,10 @@
 
         default_layer {
             bindings = <
-&kp_exit_AML Q               &kp_exit_AML L  &kp_exit_AML U  &kp_exit_AML COMMA           &kp_exit_AML DOT                                                        &kp_exit_AML F         &kp_exit_AML W  &kp_exit_AML R  &kp_exit_AML Y  &kp_exit_AML P
-&mt LCTRL E                  &kp_exit_AML I  &kp_exit_AML A  &kp_exit_AML O               &kp_exit_AML MINUS  &kp_exit_AML LS(LG(S))      &kp_exit_AML MINUS      &kp_exit_AML K         &kp_exit_AML T  &kp N           &kp_exit_AML S  &lt 5 H
-&mt_exit_AML_on_tap LSHFT Z  &kp_exit_AML X  &kp_exit_AML C  &kp_exit_AML V               &kp_exit_AML SEMI   &kp_exit_AML COLON          &kp_exit_AML SEMICOLON  &kp_exit_AML G         &kp_exit_AML D  &kp_exit_AML M  &kp_exit_AML J  &mt_exit_AML_on_tap RSHFT B
-&kp LCTRL                    &kp LEFT_WIN    &kp LEFT_ALT    &lt_to_layer_0 7 LANGUAGE_2  &lt 1 SPACE         &lt_to_layer_0 2 LANG1      &kp BACKSPACE           &mt_exit_AML_ 3 ENTER                                                  &kp DEL
+&kp_exit_AML Q               &kp_exit_AML L  &kp_exit_AML U  &kp_exit_AML COMMA           &kp_exit_AML DOT                                                        &kp_exit_AML F          &kp_exit_AML W  &kp_exit_AML R  &kp_exit_AML Y  &kp_exit_AML P
+&mt LCTRL E                  &kp_exit_AML I  &kp_exit_AML A  &kp_exit_AML O               &kp_exit_AML MINUS  &kp_exit_AML LS(LG(S))      &kp_exit_AML MINUS      &kp_exit_AML K          &kp_exit_AML T  &kp N           &kp_exit_AML S  &lt 5 H
+&mt_exit_AML_on_tap LSHFT Z  &kp_exit_AML X  &kp_exit_AML C  &kp_exit_AML V               &kp_exit_AML SEMI   &kp_exit_AML COLON          &kp_exit_AML SEMICOLON  &kp_exit_AML G          &kp_exit_AML D  &kp_exit_AML M  &kp_exit_AML J  &mt_exit_AML_on_tap RSHFT B
+&kp LCTRL                    &kp LEFT_WIN    &kp LEFT_ALT    &lt_to_layer_0 7 LANGUAGE_2  &lt 1 SPACE         &lt_to_layer_0 2 LANG1      &kp BACKSPACE           &lt_to_layer_0 3 ENTER                                                  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
