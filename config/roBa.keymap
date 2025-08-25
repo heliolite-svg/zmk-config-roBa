@@ -182,10 +182,10 @@
 
         Move {
             bindings = <
-&kp ESCAPE      &trans          &kp UP_ARROW    &trans           &trans                       &kp_exit_AML C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp_exit_AML LG(LC(LEFT_ARROW))  &kp_exit_AML UP_ARROW  &kp_exit_AML LG(LC(RIGHT))  &kp_exit_AML C_AC_DESKTOP_SHOW_ALL_APPLICATIONS
-&kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp_exit_AML HOME                           &kp_exit_AML LEFT                &kp DOWN_ARROW         &kp_exit_AML RIGHT          &kp_exit_AML END
-&kp LEFT_SHIFT  &trans          &trans          &trans           &trans   &trans      &trans  &trans                                      &mkp MB4                         &trans                 &mkp MB5                    &trans
-&trans          &trans          &trans          &trans           &trans   &trans      &trans  &trans                                                                                                                          &trans
+&kp ESCAPE      &trans          &kp UP_ARROW    &trans           &trans                       &trans    &trans             &kp_exit_AML UP_ARROW  &trans              &kp ESCAPE
+&kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp HOME  &kp_exit_AML LEFT  &kp DOWN_ARROW         &kp_exit_AML RIGHT  &kp END
+&kp LEFT_SHIFT  &trans          &trans          &trans           &trans   &trans      &trans  &trans    &trans             &trans                 &trans              &kp RSHIFT
+&trans          &trans          &trans          &trans           &trans   &trans      &trans  &trans                                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
