@@ -132,6 +132,22 @@
 
             label = "BT_1";
         };
+
+        layer_0: layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog_off 8>, <&macro_wait_time 200>, <&tog_on 0>;
+
+            label = "LAYER_0";
+        };
+
+        layer_l: layer_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog_off 8>, <&macro_wait_time 200>, <&tog_on 8>;
+
+            label = "LAYER_L";
+        };
     };
 
     behaviors {
@@ -227,8 +243,8 @@
         num {
             bindings = <
 &trans             &trans              &kp_exit_AML NUMBER_1  &kp_exit_AML NUMBER_2  &kp_exit_AML NUMBER_3                                       &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
-&kp_exit_AML PLUS  &kp_exit_AML MINUS  &kp_exit_AML NUMBER_4  &kp_exit_AML N5        &kp_exit_AML NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
-&kp LEFT_SHIFT     &kp_exit_AML N0     &kp_exit_AML N7        &kp_exit_AML N8        &kp_exit_AML N9        &trans                       &trans  &kp F11  &kp F12  &kp F13  &kp F14  &mt RIGHT_SHIFT F15
+&kp_exit_AML PLUS  &kp_exit_AML N0     &kp_exit_AML NUMBER_4  &kp_exit_AML N5        &kp_exit_AML NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
+&kp LEFT_SHIFT     &kp_exit_AML MINUS  &kp_exit_AML N7        &kp_exit_AML N8        &kp_exit_AML N9        &trans                       &trans  &kp F11  &kp F12  &kp F13  &kp F14  &mt RIGHT_SHIFT F15
 &trans             &trans              &trans                 &trans                 &kp MINUS              &kp PERIOD                   &trans  &trans                              &trans
             >;
         };
@@ -253,10 +269,10 @@
 
         Connect {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                                &bt_0   &bt_1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &sys_reset       &sys_reset   &tog 0  &tog 8  &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &bootloader      &bootloader  &trans  &trans  &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans           &trans       &trans                                      &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                                &bt_0     &bt_1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans  &sys_reset       &sys_reset   &layer_0  &layer_l  &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &bootloader      &bootloader  &trans    &trans    &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans  &trans           &trans       &trans                                          &bt BT_CLR_ALL
             >;
         };
 
