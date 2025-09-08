@@ -64,11 +64,13 @@
         layer6 {
             bindings = <&mo 7>;
             key-positions = <40 41>;
+            layers = <0 9>;
         };
 
         layerntniao {
             bindings = <&mo 7>;
             key-positions = <38 39>;
+            layers = <0 9>;
         };
     };
 
